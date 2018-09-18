@@ -20,6 +20,18 @@ weight = 5
   institution = "UIUC"
   year = 2018
 
+# List your qualifications (such as academic degrees).
+[[education.courses]]
+  course = "MS in Computer Science"
+  institution = "Zhejiang University"
+  year = 2013
+
+# List your qualifications (such as academic degrees).
+[[education.courses]]
+  course = "BS in Computer Science"
+  institution = "Zhejiang University"
+  year = 2010
+
 +++
 
 I am a final-year PhD student at the [Computer Science
@@ -27,9 +39,14 @@ Department](http://cs.illinois.edu/) of [UIUC](http://illinois.edu), advised by
 [Prof. Jiawei Han](http://www.cs.uiuc.edu/~hanj). My research falls in the area
 of data mining and machine learning.  The overarching goal of my research is to
 enable machines to turn massive data into actionable insights and intelligent
-decisions *faster* and *with less supervision*.  My current work emphasizes on
-text and spatiotemporal data, with applications in smart city and health
-informatics.
+decisions *with less supervision* and *faster*.  My current work emphasizes on
+transfer learning, semi-supervised learning, deep learning, text mining, and
+spatiotemporal data mining.
+
+
+<!---
+with applications in social media analysis, smart city, and health informatics.
+-->
 
 
 **Notice:** I will join [School of Computational Science and

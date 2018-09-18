@@ -18,7 +18,7 @@ weight = 60
 ### News
 
 * [2018.08]: Two papers on weakly supervised text classification and event extraction are accepted by CIKM'18.
-* [2018.08]: One paper on text cube construction is accepted by ICDM'18.
+* [2018.08]: One paper on text cube construction without labeled data is accepted by ICDM'18.
 * [2018.08]: Delivered a tutorial and presented three papers in KDD 2018@London.
 * [2018.07]: Serving on the Program Committee of AAAI'19.
 * [2018.07]: We will give a tutorial on multidimensional analysis of text data ([website](https://shangjingbo1226.github.io/2018-04-21-kdd-tutorial/)) in KDD'18.

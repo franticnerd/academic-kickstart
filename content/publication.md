@@ -7,17 +7,21 @@ type = "widepage"
 
 ## Recent & Representative Publications:
 
-* [TaxoGen: Unsupervised Topic Taxonomy Construction by Adaptive Term Embedding and Clustering](/papers/kdd18a.pdf)  
-    *Chao Zhang*, Fangbo Tao, Xiusi Chen, Jiaming Shen, Meng Jiang, Brian Sadler, Michelle Vanni, Jiawei Han  
-  ACM SIGKDD Conference on Knowledge Discovery and Pattern Mining (**KDD**), 2018  
-
 * [Weakly-Supervised Neural Text Classification](/papers/cikm18a.pdf)  
     Yu Meng, Jiaming Shen, *Chao Zhang*, Jiawei Han  
     ACM International Conference on Information and Knowledge Management (**CIKM**), 2018  
 
-* [Doc2Cube: Automated Document Allocation to Text Cube via Dimension-Aware Joint Embedding](/publication)  
+* [TaxoGen: Unsupervised Topic Taxonomy Construction by Adaptive Term Embedding and Clustering](/papers/kdd18a.pdf)  
+    *Chao Zhang*, Fangbo Tao, Xiusi Chen, Jiaming Shen, Meng Jiang, Brian Sadler, Michelle Vanni, Jiawei Han  
+  ACM SIGKDD Conference on Knowledge Discovery and Pattern Mining (**KDD**), 2018  
+
+* [Doc2Cube: Automated Document Allocation to Text Cube without Labeled Data](/papers/icdm18.pdf)  
     Fangbo Tao\*, *Chao Zhang*\*, Xiusi Chen, Meng Jiang, Tim Hanratty, Lance Kaplan, Jiawei Han  
     IEEE International Conference on Data Mining (**ICDM**), 2018  
+
+* [Spatiotemporal Activity Modeling Under Data Scarcity: A Graph-Regularized Cross-Modal Embedding Approach](/papers/aaai18a.pdf)  
+    *Chao Zhang*, Mengxiong Liu, Zhengchao Liu, Carl Yang, Luming Zhang, and Jiawei Han.  
+    AAAI Conference on Artificial Intelligence (**AAAI**), 2018  
 
 * [TrioVecEvent: Embedding-Based Online Local Event Detection in Geo-Tagged Tweet Streams](/papers/kdd17.pdf)   
     *Chao Zhang*, Liyuan Liu, Dongming Lei, Quan Yuan, Honglei Zhuang, Tim Hanratty, and Jiawei Han  
