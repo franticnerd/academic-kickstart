@@ -29,19 +29,21 @@ insights and intelligent decisions faster and with less supervision*.
 Revolving around this goal, we study the following topics in data mining and
 machine learning:  
 - **Data Mining**: text mining; spatiotemporal data mining; time series analysis  
-- **Machine Learning**: transfer learning; semi-supervised learning; few-shot learning; deep learning; reinforcement learning
+- **Machine Learning**: semi-supervised learning; transfer learning; few-shot learning; deep learning; reinforcement learning
 
 ### Representative publications
 
 Please find below some of our representative works:  
 - [Weakly-Supervised Neural Text Classification](/papers/cikm18a.pdf), CIKM 2018  
 - [TaxoGen: Unsupervised Topic Taxonomy Construction by Adaptive Term Embedding and Clustering](/papers/kdd18a.pdf), KDD 2018  
-- [Doc2Cube: Automated Document Allocation to Text Cube without Labeled Data](/papers/icdm18.pdf), ICDM 2018  
+- [SenseGAN: Enabling Deep Learning for Internet of Things with a Semi-Supervised Framework](https://dl.acm.org/citation.cfm?id=3264954), IMWUT 2018  
+- [Doc2Cube: Allocating Documents to Text Cube without Labeled Data](/papers/icdm18.pdf), ICDM 2018  
 - [Spatiotemporal Activity Modeling Under Data Scarcity: A Graph-Regularized Cross-Modal Embedding Approach](/papers/aaai18a.pdf), AAAI 2018  
-- [TrioVecEvent: Embedding-Based Online Local Event Detection in Geo-Tagged Tweet Streams](/papers/kdd17.pdf), KDD 2017  
+- [Bridging Collaborative Filtering and Semi-Supervised Learning: A Neural Approach for POI Recommendation](/papers/kdd17a.pdf), KDD 2017  
 - [Regions, Periods, Activities: Uncovering Urban Dynamics via Cross-Modal Representation Learning](/papers/www17.pdf), WWW 2017   
 - [GMove: Group-Level Mobility Modeling Using Geo-Tagged Social Media](/papers/kdd16.pdf), KDD 2016  
 - [GeoBurst: Real-Time Local Event Detection in Geo-Tagged Tweet Streams](/papers/sigir16.pdf), SIGIR 2016  
+
 
 ### Ongoing projects
 

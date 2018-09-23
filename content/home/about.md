@@ -34,13 +34,18 @@ weight = 5
 
 +++
 
-I am a final-year PhD student at the [Computer Science
+I am an incoming assistant professor at [School of Computational Science and
+Engineering](https://www.cse.gatech.edu), [Georgia Tech](http://www.gatech.edu)
+from December 2018. I am actively looking for talented and motivated students
+to work with me. Please email me if you are interested.
+
+I am completing my PhD at the [Computer Science
 Department](http://cs.illinois.edu/) of [UIUC](http://illinois.edu), advised by
 [Prof. Jiawei Han](http://www.cs.uiuc.edu/~hanj). My research falls in the area
 of data mining and machine learning.  The overarching goal of my research is to
 enable machines to turn massive data into actionable insights and intelligent
 decisions *with less supervision* and *faster*.  My current work emphasizes on
-transfer learning, semi-supervised learning, deep learning, text mining, and
+semi-supervised learning, transfer learning, deep learning, text mining, and
 spatiotemporal data mining.
 
 
@@ -49,9 +54,4 @@ with applications in social media analysis, smart city, and health informatics.
 -->
 
 
-**Notice:** I will join [School of Computational Science and
-Engineering](https://www.cse.gatech.edu) at [Georgia
-Tech](http://www.gatech.edu) as an assistant professor from December 2018. I am
-actively looking for talented and motivated students to work with me. Please
-email me if you are interested.
 
