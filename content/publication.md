@@ -46,6 +46,17 @@ type = "widepage"
 
 ## Full Publication List:
 
+### 2019
+
+* [Weakly-Supervised Hierarchical Text Classification](/publication)  
+    Yu Meng, Jiaming Shen, *Chao Zhang*, Jiawei Han  
+    AAAI Conference on Artificial Intelligence (**AAAI**), 2019  
+
+* [Computing Trajectory Similarity in Linear Time: A Generic Seed-Guided Neural Metric Learning Approach](/publication)  
+    Di Yao, Gao Cong, *Chao Zhang*, Jingping Bi  
+    IEEE International Conference on Data Engineering (**ICDE**), 2019  
+
+
 ### 2018
 
 * [TaxoGen: Unsupervised Topic Taxonomy Construction by Adaptive Term Embedding and Clustering](/papers/kdd18a.pdf)  

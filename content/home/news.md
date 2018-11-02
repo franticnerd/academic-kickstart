@@ -17,7 +17,10 @@ weight = 60
 
 ### News
 
-* [2018.08]: Two papers on weakly supervised text classification and event extraction are accepted by CIKM'18.
+* [2018.11]: Our paper on weakly-supervised hierarchical text classification is accepted by AAAI'19.
+* [2018.10]: Our paper on linear-time trajectory similarity computation is accepted by ICDE'19. It's up to 100x faster than state-of-the-art trajectory similarity computation techniques and supports all major measures! Code will be out soon.
+* [2018.08]: One paper on weakly-supervised text classification is accepted by CIKM'18. No need for excessive training data but just a few seeds. Congrats Yu!
+* [2018.08]: One paper on open-domain event extraction is accepted by CIKM'18.
 * [2018.08]: One paper on text cube construction without labeled data is accepted by ICDM'18.
 * [2018.08]: Delivered a tutorial and presented three papers in KDD 2018@London.
 * [2018.07]: Our paper on using GAN for semi-supervised learning is accepted by IMWUT'18.
