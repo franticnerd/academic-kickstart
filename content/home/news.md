@@ -17,6 +17,8 @@ weight = 60
 
 ### News
 
+
+* [2018.11]: The [code](https://github.com/yumeng5/WeSTClass) for our [CIKM paper](/papers/cikm18a.pdf) on weakly-supervised text classification is released. If you want to use deep neural nets to do text classification but don't have much labeled data, try it out!
 * [2018.11]: Our paper on weakly-supervised hierarchical text classification is accepted by AAAI'19.
 * [2018.10]: Our paper on linear-time trajectory similarity computation is accepted by ICDE'19. It's up to 100x faster than state-of-the-art trajectory similarity computation techniques and supports all major measures! Code will be out soon.
 * [2018.08]: One paper on weakly-supervised text classification is accepted by CIKM'18. No need for excessive training data but just a few seeds. Congrats Yu!

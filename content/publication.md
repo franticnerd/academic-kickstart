@@ -85,6 +85,7 @@ type = "widepage"
 * [Weakly-Supervised Neural Text Classification](/papers/cikm18a.pdf)  
     Yu Meng, Jiaming Shen, *Chao Zhang*, Jiawei Han  
     ACM International Conference on Information and Knowledge Management (**CIKM**), 2018  
+    [`Code`](https://github.com/yumeng5/WeSTClass) 
 
 * [Open-Schema Event Profiling for Massive News Corpora](/papers/cikm18b.pdf)  
     Quan Yuan, Xiang Ren, Wenqi He, *Chao Zhang*, Xinhe Geng, Lifu Huang, Heng Ji, Chin-Yew Lin, Jiawei Han  
@@ -101,6 +102,7 @@ type = "widepage"
 * [Doc2Cube: Allocating Documents to Text Cube without Labeled Data](/papers/icdm18.pdf)  
     Fangbo Tao\*, *Chao Zhang*\*, Xiusi Chen, Meng Jiang, Tim Hanratty, Lance Kaplan, Jiawei Han  
     IEEE International Conference on Data Mining (**ICDM**), 2018  
+    [`Code`](https://github.com/fangbo-tao/doc2cube) 
 
 * [Did You Enjoy the Ride: Understanding Passenger Experience via Heterogeneous Network Embedding](/papers/icde18.pdf)  
     Carl Yang, *Chao Zhang*, Jiawei Han, Xuewen Chen, and Jieping Ye  
