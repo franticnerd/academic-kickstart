@@ -48,7 +48,7 @@ type = "widepage"
 
 ### 2019
 
-* [Weakly-Supervised Hierarchical Text Classification](/publication)  
+* [Weakly-Supervised Hierarchical Text Classification]((/papers/aaai19.pdf)  
     Yu Meng, Jiaming Shen, *Chao Zhang*, Jiawei Han  
     AAAI Conference on Artificial Intelligence (**AAAI**), 2019  
 
