@@ -39,14 +39,14 @@ Engineering](https://www.cse.gatech.edu), [Georgia Tech](http://www.gatech.edu)
 from December 2018. I am actively looking for talented and motivated students
 to work with me. Please email me if you are interested.
 
-I just obtained my Ph.D. at the [Computer Science
-Department](http://cs.illinois.edu/) of [UIUC](http://illinois.edu), advised by
-[Prof. Jiawei Han](http://www.cs.uiuc.edu/~hanj). My research falls in the area
-of data mining and machine learning.  The overarching goal of my research is to
-enable machines to turn massive data into actionable insights and intelligent
-decisions *with less supervision* and *faster*.  My current work emphasizes on
-semi-supervised learning, deep learning, text mining, and spatiotemporal data
-mining.
+I obtained my Ph.D. at the [Computer Science
+Department](http://cs.illinois.edu/) of [UIUC](http://illinois.edu) under the
+advisement of [Prof. Jiawei Han](http://www.cs.uiuc.edu/~hanj). My research
+falls in the area of data mining and machine learning.  The overarching goal of
+my research is to enable machines to turn massive data into actionable insights
+and intelligent decisions *with less supervision* and *faster*.  My current
+work emphasizes on semi-supervised learning, deep learning, text mining, and
+spatiotemporal data mining.
 
 
 <!---
