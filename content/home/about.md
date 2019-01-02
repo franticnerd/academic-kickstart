@@ -10,8 +10,11 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Data Mining",
-    "Machine Learning"
+    "Semi-supervised learning",
+    "Deep learning",
+    "Few-shot learning",
+    "Text mining",
+    "Spatio-temporal data mining",
   ]
 
 # List your qualifications (such as academic degrees).
@@ -36,17 +39,18 @@ weight = 5
 
 I am an incoming assistant professor at [School of Computational Science and
 Engineering](https://www.cse.gatech.edu), [Georgia Tech](http://www.gatech.edu)
-from December 2018. I am actively looking for talented and motivated students
-to work with me. Please email me if you are interested.
+from January 2019.  I obtained my Ph.D. in [Computer
+Science](http://cs.illinois.edu/) from [UIUC](http://illinois.edu) under the
+advisement of [Prof. Jiawei Han](http://www.cs.uiuc.edu/~hanj). 
 
-I obtained my Ph.D. at the [Computer Science
-Department](http://cs.illinois.edu/) of [UIUC](http://illinois.edu) under the
-advisement of [Prof. Jiawei Han](http://www.cs.uiuc.edu/~hanj). My research
-falls in the area of data mining and machine learning.  The overarching goal of
-my research is to enable machines to turn massive data into actionable insights
-and intelligent decisions *with less supervision* and *faster*.  My current
-work emphasizes on semi-supervised learning, deep learning, text mining, and
-spatiotemporal data mining.
+My research falls in the area of data mining and machine learning.  The
+overarching goal of my research is to enable machines to turn massive data into
+actionable insights and intelligent decisions *with less supervision* and
+*faster*.  My current work emphasizes on semi-supervised learning, deep
+learning, text mining, and spatiotemporal data mining.
+
+I am actively looking for talented and motivated students to
+work with me. Please email me if you are interested.
 
 
 <!---

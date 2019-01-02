@@ -1,0 +1,24 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+
+
+<div class="container">
+
+  {{ partial "header_image.html" . }}
+
+  <div class="row">
+    <div class="col-md-12">
+
+      <h1>{{ .Title  }}</h1>
+
+      {{ with .Content }}
+      <div class="article-style" itemprop="articleBody">{{ . }}</div>
+      {{ end }}
+
+
+    </div>
+  </div>
+</div>
+{{ partial "footer_container.html" . }}
+{{ partial "footer.html" . }}
+

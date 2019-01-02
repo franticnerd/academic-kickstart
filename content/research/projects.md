@@ -29,7 +29,7 @@ insights and intelligent decisions faster and with less supervision*.
 Revolving around this goal, we study the following topics in data mining and
 machine learning:  
 - **Data Mining**: text mining; spatiotemporal data mining; time series analysis  
-- **Machine Learning**: semi-supervised learning; transfer learning; few-shot learning; deep learning; reinforcement learning
+- **Machine Learning**: semi-supervised learning; few-shot learning; deep learning
 
 ### Representative publications
 
