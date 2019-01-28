@@ -24,12 +24,11 @@ view = 1
 
 ### Research interests
 
-Our research goal is to enable machines to *turn massive data into actionable
-insights and intelligent decisions faster and with less supervision*.
-Revolving around this goal, we study the following topics in data mining and
-machine learning:  
+Our research goal is to enable machines to turn massive data into knowledge in
+a label-efficient and robust way.  Revolving around this goal, we study the
+following topics in data mining and machine learning:  
 - **Data Mining**: text mining; spatiotemporal data mining; time series analysis  
-- **Machine Learning**: semi-supervised learning; few-shot learning; deep learning
+- **Machine Learning**: semi-supervised learning; deep learning; adversarial learning, uncertainty estimation
 
 ### Representative publications
 
@@ -37,6 +36,7 @@ Please find below some of our representative works:
 - [Weakly-Supervised Neural Text Classification](/papers/cikm18a.pdf), CIKM 2018  
 - [TaxoGen: Unsupervised Topic Taxonomy Construction by Adaptive Term Embedding and Clustering](/papers/kdd18a.pdf), KDD 2018  
 - [SenseGAN: Enabling Deep Learning for Internet of Things with a Semi-Supervised Framework](https://dl.acm.org/citation.cfm?id=3264954), IMWUT 2018  
+- [RDeepSense: Reliable Deep Mobile Computing Models with Uncertainty Estimations](https://arxiv.org/pdf/1709.02980.pdf), UbiComp 2018  
 - [Doc2Cube: Allocating Documents to Text Cube without Labeled Data](/papers/icdm18.pdf), ICDM 2018  
 - [Spatiotemporal Activity Modeling Under Data Scarcity: A Graph-Regularized Cross-Modal Embedding Approach](/papers/aaai18a.pdf), AAAI 2018  
 - [Bridging Collaborative Filtering and Semi-Supervised Learning: A Neural Approach for POI Recommendation](/papers/kdd17a.pdf), KDD 2017  
