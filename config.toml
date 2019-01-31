@@ -64,16 +64,16 @@ enableGitInfo = false
 
   # Your details.
   name = "Chao Zhang"
-  role = "Ph.D. in CS"
+  role = "Assistant Professor"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "UIUC", url = "https://illinois.edu/" } ]
+  organizations = [ { name = "Georgia Tech", url = "https://www.cse.gatech.edu" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "chao.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "czhang82@illinois.edu"
-  address = "Room 1119, Siebel Center, Champaign, IL"
+  address = "Klaus 1338, 266 Ferst Dr NW, Atlanta, GA"
 
   # Enable Keybase in Contact widget by entering your keybase.io username.
   keybase = ""

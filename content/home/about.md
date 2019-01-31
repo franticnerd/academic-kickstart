@@ -36,7 +36,7 @@ weight = 5
 
 +++
 
-I am an incoming assistant professor at [School of Computational Science and
+I am an assistant professor at [School of Computational Science and
 Engineering](https://www.cse.gatech.edu), [Georgia
 Tech](http://www.gatech.edu).  I obtained my Ph.D. in [Computer
 Science](http://cs.illinois.edu/) from [UIUC](http://illinois.edu) under the
