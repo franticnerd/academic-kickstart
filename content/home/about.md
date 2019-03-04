@@ -42,10 +42,9 @@ Tech](http://www.gatech.edu).  I obtained my Ph.D. in [Computer
 Science](http://cs.illinois.edu/) from [UIUC](http://illinois.edu) under the
 advisement of [Prof. Jiawei Han](http://www.cs.uiuc.edu/~hanj). 
 
-My research interests fall in the area of data mining and machine learning. My
-current work focuses on developing label-efficient and robust methods that turn
-massive data (e.g., text, spatiotemporal data) into knowledge for task support
-and decision making.
+My research area is data mining and machine learning. I am particularly
+interested in developing label-efficient and robust learning techniques, with
+applications in text mining and spatiotemporal data mining.
 
 I am actively looking for talented and motivated students to work with me.
 Please email me if you are interested.
