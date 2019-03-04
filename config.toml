@@ -229,7 +229,7 @@ enableGitInfo = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:czhang82@illinois.edu"
+    link = "mailto:chaozhang.cs@gmail.com"
 
   [[params.social]]
     icon = "google-scholar"
