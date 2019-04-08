@@ -17,7 +17,9 @@ weight = 60
 
 ### News
 
-
+* [2019.02]: Our book "Multidimensional Mining of Massive Text Data" has been published by Morgan & Claypool! Check it out [here](https://www.morganclaypool.com/doi/10.2200/S00903ED1V01Y201902DMK017).
+* [2018.12]: One paper on integrating heterogeneous mobility data is accepted by WWW 2019.
+* [2018.12]: Two papers are accepted by SDM 2019. One is about using hidden Markov model for mobility modeling; another about cross-modal linking between text and location.
 * [2018.11]: The [code](https://github.com/yumeng5/WeSTClass) for our [CIKM paper](/papers/cikm18a.pdf) on weakly-supervised text classification is released. If you want to use deep neural nets to do text classification but don't have much labeled data, try it out!
 * [2018.11]: Our paper on weakly-supervised hierarchical text classification is accepted by AAAI'19.
 * [2018.10]: Our paper on linear-time trajectory similarity computation is accepted by ICDE'19. It's up to 100x faster than state-of-the-art trajectory similarity computation techniques and supports all major measures! Code will be out soon.

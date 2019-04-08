@@ -48,6 +48,22 @@ type = "widepage"
 
 ### 2019
 
+* [Multidimensional Mining of Massive Text Data](https://www.morganclaypool.com/doi/10.2200/S00903ED1V01Y201902DMK017)  
+  *Chao Zhang*, Jiawei Han  
+  Synthesis Lectures on Data Mining and Knowledge Discovery, Morgan & Claypool Publishers
+
+* [GeoAttn: Localization of Social Media Messages Via Attentional Memory Network](/publication)  
+  Sha Li, *Chao Zhang*, Dongming Lei, Ji Li, Jiawei Han  
+  SIAM International Conference on Data Mining (**SDM**), 2019  
+
+* [Semantics-Aware Hidden Markov Model for Human Mobility](/publication)  
+  Hongzhi Shi, Hancheng Cao, Xiangxin Zhou, Yong Li, *Chao Zhang*, Vassilis Kostakos, Funing Sun, Fanchao Meng  
+  SIAM International Conference on Data Mining (**SDM**), 2019  
+
+* [DPLink: User Identity Linkage via Deep Neural Network From Heterogeneous Mobility Data](/publication)  
+  Jie Feng, Mingyang Zhang, Huandong Wang, Zeyu Yang, *Chao Zhang*,  Yong Li, Depeng Jin  
+    The Web Conference (**WWW**), 2019  
+
 * [Weakly-Supervised Hierarchical Text Classification](/papers/aaai19.pdf)  
     Yu Meng, Jiaming Shen, *Chao Zhang*, Jiawei Han  
     AAAI Conference on Artificial Intelligence (**AAAI**), 2019  
@@ -55,6 +71,7 @@ type = "widepage"
 * [Computing Trajectory Similarity in Linear Time: A Generic Seed-Guided Neural Metric Learning Approach](/publication)  
     Di Yao, Gao Cong, *Chao Zhang*, Jingping Bi  
     IEEE International Conference on Data Engineering (**ICDE**), 2019  
+
 
 
 ### 2018

@@ -28,7 +28,7 @@ Our research goal is to enable machines to turn massive data into knowledge in
 a label-efficient and robust way.  Revolving around this goal, we study the
 following topics in data mining and machine learning:  
 - **Data Mining**: text mining; spatiotemporal data mining; time series analysis  
-- **Machine Learning**: semi-supervised learning; deep learning; adversarial learning, uncertainty estimation
+- **Machine Learning**: uncertainty estimation; probabilistic modeling; graphical models; semi-supervised learning
 
 ### Representative publications
 
