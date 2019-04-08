@@ -10,8 +10,9 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
+    "Probabilistic modeling",
+    "Graphical models",
     "Semi-supervised learning",
-    "Deep learning",
     "Text mining",
     "Spatio-temporal data mining",
   ]
