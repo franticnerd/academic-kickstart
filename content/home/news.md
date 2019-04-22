@@ -17,6 +17,7 @@ weight = 60
 
 ### News
 
+* [2019.03]: Our paper "A gradual, semi-discrete approach to generative network training via explicit Wasserstein minimization" is accepted by ICML'19!
 * [2019.02]: Our book "Multidimensional Mining of Massive Text Data" has been published by Morgan & Claypool! Check it out [here](https://www.morganclaypool.com/doi/10.2200/S00903ED1V01Y201902DMK017).
 * [2018.12]: One paper on integrating heterogeneous mobility data is accepted by WWW 2019.
 * [2018.12]: Two papers are accepted by SDM 2019. One is about using hidden Markov model for mobility modeling; another about cross-modal linking between text and location.

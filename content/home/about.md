@@ -10,11 +10,11 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
+    "Text mining",
+    "Spatio-temporal data mining",
     "Probabilistic modeling",
     "Graphical models",
     "Semi-supervised learning",
-    "Text mining",
-    "Spatio-temporal data mining",
   ]
 
 # List your qualifications (such as academic degrees).
