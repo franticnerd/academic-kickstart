@@ -52,6 +52,11 @@ type = "widepage"
   *Chao Zhang*, Jiawei Han  
   Synthesis Lectures on Data Mining and Knowledge Discovery, Morgan & Claypool Publishers
 
+* [A Gradual, Semi-Discrete Approach to Generative Network Training via Explicit Wasserstein Minimization](/publication)  
+    Yucheng Chen, Matus Telgarsky, *Chao Zhang*, Bolton Bailey, Daniel Hsu, Jian Peng  
+    International Conference on Machine Learning (**ICML**), 2019  
+
+
 * [GeoAttn: Localization of Social Media Messages Via Attentional Memory Network](/publication)  
   Sha Li, *Chao Zhang*, Dongming Lei, Ji Li, Jiawei Han  
   SIAM International Conference on Data Mining (**SDM**), 2019  

@@ -44,7 +44,6 @@ Science](http://cs.illinois.edu/) from [UIUC](http://illinois.edu) under the
 advisement of [Prof. Jiawei Han](http://www.cs.uiuc.edu/~hanj). 
 
 
-
 My research is to build intelligent systems that acquire knowledge from data
 for effective task support and decision making. Towards this goal, much of my
 recent work has been centered around **mining unstructured text data**, with
