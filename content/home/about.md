@@ -46,9 +46,9 @@ advisement of [Prof. Jiawei Han](http://www.cs.uiuc.edu/~hanj).
 
 My research is to build intelligent systems that acquire knowledge from data
 for effective task support and decision making. Towards this goal, much of my
-recent work has been centered around **mining unstructured text data**, with
-particular emphasis on developing techniques that learn from data in a
-**label-efficient** and **robust** way. I am also broadly interested in
+recent work has been centered around **mining unstructured data** (text, time
+series), with particular emphasis on developing techniques that learn from data
+in a **label-efficient** and **robust** way. I am also broadly interested in
 **probabilistic models**, **uncertainty estimation**, and **semi-supervised
 learning**.
 
@@ -60,6 +60,4 @@ Please email me if you are interested.
 <!---
 with applications in social media analysis, smart city, and health informatics.
 -->
-
-
 

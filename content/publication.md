@@ -52,18 +52,13 @@ type = "widepage"
   *Chao Zhang*, Jiawei Han  
   Synthesis Lectures on Data Mining and Knowledge Discovery, Morgan & Claypool Publishers
 
+* [State-Sharing Hidden Markov Models for Personalized Sequences](/publication)  
+    Hongzhi Shi, *Chao Zhang*, Mingquan Yao, Yong Li, Funing Sun, Depeng Jin  
+    ACM SIGKDD Conference on Knowledge Discovery and Pattern Mining (**KDD**), 2019  
+
 * [A Gradual, Semi-Discrete Approach to Generative Network Training via Explicit Wasserstein Minimization](/publication)  
     Yucheng Chen, Matus Telgarsky, *Chao Zhang*, Bolton Bailey, Daniel Hsu, Jian Peng  
     International Conference on Machine Learning (**ICML**), 2019  
-
-
-* [GeoAttn: Localization of Social Media Messages Via Attentional Memory Network](/publication)  
-  Sha Li, *Chao Zhang*, Dongming Lei, Ji Li, Jiawei Han  
-  SIAM International Conference on Data Mining (**SDM**), 2019  
-
-* [Semantics-Aware Hidden Markov Model for Human Mobility](/publication)  
-  Hongzhi Shi, Hancheng Cao, Xiangxin Zhou, Yong Li, *Chao Zhang*, Vassilis Kostakos, Funing Sun, Fanchao Meng  
-  SIAM International Conference on Data Mining (**SDM**), 2019  
 
 * [DPLink: User Identity Linkage via Deep Neural Network From Heterogeneous Mobility Data](/publication)  
   Jie Feng, Mingyang Zhang, Huandong Wang, Zeyu Yang, *Chao Zhang*,  Yong Li, Depeng Jin  
@@ -77,9 +72,21 @@ type = "widepage"
     Di Yao, Gao Cong, *Chao Zhang*, Jingping Bi  
     IEEE International Conference on Data Engineering (**ICDE**), 2019  
 
+* [GeoAttn: Localization of Social Media Messages Via Attentional Memory Network](/publication)  
+  Sha Li, *Chao Zhang*, Dongming Lei, Ji Li, Jiawei Han  
+  SIAM International Conference on Data Mining (**SDM**), 2019  
+
+* [Semantics-Aware Hidden Markov Model for Human Mobility](/publication)  
+  Hongzhi Shi, Hancheng Cao, Xiangxin Zhou, Yong Li, *Chao Zhang*, Vassilis Kostakos, Funing Sun, Fanchao Meng  
+  SIAM International Conference on Data Mining (**SDM**), 2019  
 
 
 ### 2018
+
+
+* [Multi-Dimensional Mining of Unstructured Data with Limited Supervision](/publication)  
+  *Chao Zhang*  
+  Ph.D. Thesis  
 
 * [TaxoGen: Unsupervised Topic Taxonomy Construction by Adaptive Term Embedding and Clustering](/papers/kdd18a.pdf)  
     *Chao Zhang*, Fangbo Tao, Xiusi Chen, Jiaming Shen, Meng Jiang, Brian Sadler, Michelle Vanni, Jiawei Han  
