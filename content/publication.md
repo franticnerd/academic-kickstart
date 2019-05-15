@@ -52,7 +52,7 @@ type = "widepage"
   *Chao Zhang*, Jiawei Han  
   Synthesis Lectures on Data Mining and Knowledge Discovery, Morgan & Claypool Publishers
 
-* [State-Sharing Hidden Markov Models for Personalized Sequences](/publication)  
+* [State-Sharing Sparse Hidden Markov Models for Personalized Sequences](/publication)  
     Hongzhi Shi, *Chao Zhang*, Mingquan Yao, Yong Li, Funing Sun, Depeng Jin  
     ACM SIGKDD Conference on Knowledge Discovery and Pattern Mining (**KDD**), 2019  
 
