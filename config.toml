@@ -72,7 +72,7 @@ enableGitInfo = false
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "chao.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "chaozhang.cs AT gmail DOT com"
+  email = "chaozhang@gatech.edu"
   address = "Klaus 1338, 266 Ferst Dr NW, Atlanta, GA"
 
   # Enable Keybase in Contact widget by entering your keybase.io username.
@@ -229,7 +229,7 @@ enableGitInfo = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:chaozhang.cs@gmail.com"
+    link = "mailto:chaozhang@gatech.edu"
 
   [[params.social]]
     icon = "google-scholar"
