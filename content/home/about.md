@@ -49,9 +49,8 @@ for effective task support and decision making. Towards this goal, much of my
 recent work has been centered around **mining unstructured data** (text, time
 series), with particular emphasis on developing techniques that learn from data
 in a **label-efficient** and **robust** way. I am also broadly interested in
-**probabilistic models**, **uncertainty estimation**, and **semi-supervised
-learning**.
-
+**weakly-supervised learning**, **probabilistic models**, and **uncertainty
+estimation**.
 
 I am actively looking for talented and motivated students to work with me.
 Please email me if you are interested.
