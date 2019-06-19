@@ -24,9 +24,10 @@ view = 1
 
 ### Research interests
 
-Our research goal is to enable machines to turn massive data into knowledge in
-a label-efficient and robust way. Revolving around this goal, we study the
-following topics in data mining and machine learning:  
+We aim to enable machines to acquire knowledge from massive data in a
+label-efficient and robust way, as well as use the acquired knowledge for task
+support and decision making. Revolving around this goal, we study the following
+topics:  
   - Low-resource text mining  
   - Learning with less labeled data  
   - Probabilistic modeling and uncertainty quantification  

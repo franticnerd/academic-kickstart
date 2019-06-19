@@ -110,8 +110,13 @@ type = "widepage"
     Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (**IMWUT**), 2018
 
 * [Deep Learning for the Internet of Things](https://ieeexplore.ieee.org/document/8364644/)  
-    Shuochao Yao, Yiran Zhao, Aston Zhang, Huajie Shao, *Chao Zhang*, Lu Su, Tarek Abdelzaher   
-  To appear in IEEE Computer, 2018
+    Shuochao Yao, Yiran Zhao, Aston Zhang, Huajie Shao, *Chao Zhang*, Lu Su, Tarek Abdelzaher  
+  IEEE Computer, 2018
+
+
+* [Learning deep representation for trajectory clustering](https://onlinelibrary.wiley.com/doi/full/10.1111/exsy.12252)  
+   Di Yao, *Chao Zhang*, Zhihua Zhu, Qin Hu, Zheng Wang, Jianhui Huang, Jingping Bi  
+  Expert Systems, 2018.
 
 * [Leveraging the Power of Informative Users for Local Event Detection](/papers/asonam18.pdf)  
   Hengtong Zhang, Fenglong Ma, Yaliang Li, *Chao Zhang*, Tianqi Wang, Yaqing Wang, Jing Gao, Lu Su  
@@ -120,6 +125,11 @@ type = "widepage"
 * [RDeepSense: Reliable Deep Mobile Computing Models with Uncertainty Estimations](https://arxiv.org/pdf/1709.02980.pdf)  
     Shuochao Yao, Yiran Zhao, Huajie Shao, Aston Zhang, *Chao Zhang*, Shen Li, and Tarek Abdelzaher.  
     ACM International Joint Conference on Pervasive and Ubiquitous Computing (**UbiComp**), 2018
+
+
+* [ApDeepSense: Deep Learning Uncertainty Estimation without the Pain for IoT Applications](https://ieeexplore.ieee.org/abstract/document/8416304/)  
+    Shuochao Yao, Yiran Zhao, Huajie Shao, *Chao Zhang*, Aston Zhang, Dongxin Liu, Shengzhong Liu, Lu Su, Tarek Abdelzaher  
+    IEEE International Conference on Distributed Computing Systems (**ICDCS**), 2018
 
 * [A Constrained Maximum Likelihood Estimator for Unguided Social Sensing](/papers/infocom18.pdfj)  
     Huajie Shao, Shuochao Yao, Yiran Zhao, *Chao Zhang*, Jinda Han, Lance Kaplan, Su Lu, and Tarek Abdelzaher  
