@@ -1,9 +1,9 @@
 +++
 # Project title.
-title = "Multimodal Data Analytics"
+title = "Mining Text-Rich Spatiotemporal Data"
 
 # Project summary to display on homepage.
-summary = "Multimodal learning on text-rich spatiotemporal data."
+summary = "Integrating unstructured text and structured spatiotemporal data for knowledge discovery."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "multimodal.png"

@@ -28,7 +28,6 @@ Our research goal is to enable machines to turn massive data into knowledge in
 a label-efficient and robust way. Revolving around this goal, we study the
 following topics in data mining and machine learning:  
   - Low-resource text mining  
-  - Time series and sequential data analysis  
   - Learning with less labeled data  
   - Probabilistic modeling and uncertainty quantification  
 

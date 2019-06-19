@@ -6,7 +6,8 @@ date = 2016-04-27T00:00:00
 title = "Low-Resource Text Mining"
 
 # Project summary to display on homepage.
-summary = "Turning text into knowledge with weak supervision."
+summary = "Leverage weak supervision for text mining tasks such as text
+classification, event extraction, and taxonomy construction."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "low-resource.png"
