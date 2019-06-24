@@ -23,9 +23,9 @@ probabilistic models ([KDD'19](/publication)), and uncertainty estimation
 
 Prior to joining Georgia Tech, I obtained my Ph.D. in [Computer
 Science](http://cs.illinois.edu/) from [UIUC](http://illinois.edu), where I
-worked with [Jiawei Han](http://www.cs.uiuc.edu/~hanj) on **text mining**
+worked with [Jiawei Han](http://www.cs.uiuc.edu/~hanj) on text mining
 ([KDD'17](/papers/kdd17.pdf), [KDD'18](/papers/kdd18a.pdf),
-[ICDM'18](/papers/icdm18.pdf)) and **spatiotemporal data mining**
+[ICDM'18](/papers/icdm18.pdf)) and spatiotemporal data mining
 ([VLDB'14](/papers/pvldb14.pdf), [KDD'15](/papers/kdd15.pdf),
 [KDD'16](/papers/kdd16.pdf), [KDD'17](/papers/kdd17a.pdf),
 [SIGIR'16](/papers/sigir16.pdf), [WWW'17](/papers/www17.pdf)).
@@ -39,25 +39,25 @@ good match between us.
 
 ### What's New:
 
-* Our paper "TopicMine: User-Guided Topic Mining by Category-Oriented Embedding" is accepted by KDD 2019 Projects Showcase for oral presentation!
-* Our paper "State-sharing Sparse Hidden Markov Models" for modeling sparse sequential data is accepted by KDD 2019 as an oral paper in the research track!
-* Our paper "A gradual, semi-discrete approach to generative network training via explicit Wasserstein minimization" is accepted by ICML 2019!
-* Our book "Multidimensional Mining of Massive Text Data" has been published by Morgan & Claypool! Check it out [here](https://www.morganclaypool.com/doi/10.2200/S00903ED1V01Y201902DMK017).
-* Two papers are accepted by SDM 2019. One is about using hidden Markov model for mobility modeling; another about cross-modal linking between text and location.
-* The [code](https://github.com/yumeng5/WeSTClass) for our [CIKM paper](/papers/cikm18a.pdf) on weakly-supervised text classification is released. If you want to use deep neural nets to do text classification but don't have much labeled data, try it out!
-* Our paper on weakly-supervised hierarchical text classification is accepted by AAAI 2019.
-* Our paper on linear-time trajectory similarity computation is accepted by ICDE 2019. It's up to 100x faster than state-of-the-art trajectory similarity computation techniques and supports all major measures! Code will be out soon.
-* One paper on weakly-supervised text classification is accepted by CIKM 2018. No need for excessive training data but just a few seeds. Congrats Yu!
-* One paper on open-domain event extraction is accepted by CIKM 2018.
-* One paper on text cube construction without labeled data is accepted by ICDM 2018.
-* Delivered a tutorial and presented three papers in KDD 2018@London.
-* Our paper on using GAN for semi-supervised learning is accepted by IMWUT 2018.
-* We will give a tutorial on multidimensional analysis of text data ([website](https://shangjingbo1226.github.io/2018-04-21-kdd-tutorial/)) in KDD 2018.
-* One paper on event detection is accepted by ASONAM 2018.
-* Three papers are accepted by KDD 2018 (Research Track).
-* Invited to talk about event detection on Illinois Innovator Podcast, available on [SoundCloud](https://engineering.illinois.edu/news/article/23905) and [iTunes](https://itunes.apple.com/us/podcast/engineering-at-illinois/id1237376461?mt=2).
-* Serving on the Program Committee (Machine Learning Track) of ACL 2018.
-* Check out our [Urbanity](http://urbanity-frontend.herokuapp.com/) system ([paper](/papers/cikm17c.pdf)) for predicting spatiotemporal activities with social media.
-* We give a tutorial on "Space and Time Coupled Social Media Analysis" ([slides](/slides/slides-cikm17.pdf)) in CIKM'17. 
-* Check out the [report](http://www.itbusiness.ca/news/tweet-analysis-could-pinpoint-where-to-send-emergency-help-in-disasters-like-harvey/94590) from [IT Business](http://www.itbusiness.ca/about-us) about our work on event detection from social media.
-* We give a tutorial on "Bringing Semantics to Spatiotemporal Data Mining" ([slides](/slides/slides-icde17.pdf)) in ICDE'17.
+* Our book "[Multidimensional Mining of Massive Text Data](https://www.morganclaypool.com/doi/10.2200/S00903ED1V01Y201902DMK017)" is published by Morgan & Claypool!
+* Two papers accepted by KDD'19 Projects Showcase Track.
+* One paper accepted by KDD'19 Research Track as an oral.
+* One paper on deep generative modeling accepted by ICML'19.
+* Try out [WeSTClass](https://github.com/yumeng5/WeSTClass) for [weakly-supervised text classification](/papers/cikm18a.pdf)!
+* Our paper on linear-time trajectory similarity computation is accepted by ICDE'19: up to 100x speedup and supports most similarity measures.
+* Gave a tutorial on [multidimensional analysis of text data](https://shangjingbo1226.github.io/2018-04-21-kdd-tutorial/) in KDD'18.
+* Talked about event detection on [Illinois Innovator Podcast](https://grainger.illinois.edu/news/podcasts/), available on [SoundCloud](https://engineering.illinois.edu/news/article/23905) and [iTunes](https://itunes.apple.com/us/podcast/engineering-at-illinois/id1237376461?mt=2).
+* Check out the [report](http://www.itbusiness.ca/news/tweet-analysis-could-pinpoint-where-to-send-emergency-help-in-disasters-like-harvey/94590) from [IT Business](http://www.itbusiness.ca/about-us) about our event detection work.
+
+
+### Recent and Representative Publications
+- [Multidimensional Mining of Massive Text Data](https://www.morganclaypool.com/doi/10.2200/S00903ED1V01Y201902DMK017), Morgan & Claypool Publishers
+- [State-Sharing Sparse Hidden Markov Models for Personalized Sequences](/publication), KDD'19  
+- [A Gradual, Semi-Discrete Approach to Generative Network Training via Explicit Wasserstein Minimization](http://proceedings.mlr.press/v97/chen19h.html), ICML'19  
+- [Computing Trajectory Similarity in Linear Time: A Generic Seed-Guided Neural Metric Learning Approach](https://ieeexplore.ieee.org/document/8731427), ICDE'19  
+- [Multi-Dimensional Mining of Unstructured Data with Limited Supervision](/publication), Ph.D. Thesis  
+- [Weakly-Supervised Neural Text Classification](/papers/cikm18a.pdf), CIKM'18  
+- [TaxoGen: Unsupervised Topic Taxonomy Construction by Adaptive Term Embedding and Clustering](/papers/kdd18a.pdf), KDD'18  
+- [TrioVecEvent: Embedding-Based Online Local Event Detection in Geo-Tagged Tweet Streams](/papers/kdd17.pdf), KDD'17
+- [Regions, Periods, Activities: Uncovering Urban Dynamics via Cross-Modal Representation Learning](/papers/www17.pdf), WWW'17   
+- [GMove: Group-Level Mobility Modeling Using Geo-Tagged Social Media](/papers/kdd16.pdf), KDD'16  
