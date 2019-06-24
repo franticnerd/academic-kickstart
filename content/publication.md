@@ -28,10 +28,6 @@ type = "widepage"
     Yucheng Chen, Matus Telgarsky, *Chao Zhang*, Bolton Bailey, Daniel Hsu, Jian Peng  
     International Conference on Machine Learning (**ICML**), 2019  
 
-* [DPLink: User Identity Linkage via Deep Neural Network From Heterogeneous Mobility Data](https://dl.acm.org/citation.cfm?id=3313424)  
-  Jie Feng, Mingyang Zhang, Huandong Wang, Zeyu Yang, *Chao Zhang*,  Yong Li, Depeng Jin  
-    The Web Conference (**WWW**), 2019  
-
 * [Weakly-Supervised Hierarchical Text Classification](/papers/aaai19.pdf)  
     Yu Meng, Jiaming Shen, *Chao Zhang*, Jiawei Han  
     AAAI Conference on Artificial Intelligence (**AAAI**), 2019  
@@ -39,6 +35,10 @@ type = "widepage"
 * [Computing Trajectory Similarity in Linear Time: A Generic Seed-Guided Neural Metric Learning Approach](https://ieeexplore.ieee.org/document/8731427)  
     Di Yao, Gao Cong, *Chao Zhang*, Jingping Bi  
     IEEE International Conference on Data Engineering (**ICDE**), 2019  
+
+* [DPLink: User Identity Linkage via Deep Neural Network From Heterogeneous Mobility Data](https://dl.acm.org/citation.cfm?id=3313424)  
+  Jie Feng, Mingyang Zhang, Huandong Wang, Zeyu Yang, *Chao Zhang*,  Yong Li, Depeng Jin  
+    The Web Conference (**WWW**), 2019  
 
 * [GeoAttn: Localization of Social Media Messages Via Attentional Memory Network](https://epubs.siam.org/doi/pdf/10.1137/1.9781611975673.8)  
   Sha Li, *Chao Zhang*, Dongming Lei, Ji Li, Jiawei Han  
