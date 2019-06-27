@@ -11,14 +11,13 @@ weight = 5
 +++
 
 
-
-My research areas are data mining and machine learning.  My recent work centers
-around acquiring knowledge from **unstructured text data**, with emphasis on
-improving **label efficiency** and **robustness** of learning algorithms.
-Methodologically, I am particularly interested in weakly-supervised learning
-([CIKM'18](/papers/cikm18a.pdf), [AAAI'19](/papers/aaai19.pdf)), unsupervised
-learning ([ICML'19](http://proceedings.mlr.press/v97/chen19h.html)),
-probabilistic models ([KDD'19](/publication)), and uncertainty estimation
+I work on machine learning for **unstructured text data** and its applications,
+with emphasis on improving **label efficiency** and **robustness** of learning
+algorithms.  Methodologically, I am particularly interested in
+weakly-supervised learning ([CIKM'18](/papers/cikm18a.pdf),
+[AAAI'19](/papers/aaai19.pdf)), unsupervised learning
+([ICML'19](http://proceedings.mlr.press/v97/chen19h.html)), probabilistic
+models ([KDD'19](/publication)), and uncertainty estimation
 ([UbiComp'18](https://arxiv.org/pdf/1709.02980.pdf)).  
 
 Prior to joining Georgia Tech, I obtained my Ph.D. in [Computer
@@ -51,13 +50,12 @@ good match between us.
 
 
 ### Recent and Representative Publications
-- [Multidimensional Mining of Massive Text Data](https://www.morganclaypool.com/doi/10.2200/S00903ED1V01Y201902DMK017), Morgan & Claypool Publishers
-- [State-Sharing Sparse Hidden Markov Models for Personalized Sequences](/publication), KDD'19  
-- [A Gradual, Semi-Discrete Approach to Generative Network Training via Explicit Wasserstein Minimization](http://proceedings.mlr.press/v97/chen19h.html), ICML'19  
-- [Computing Trajectory Similarity in Linear Time: A Generic Seed-Guided Neural Metric Learning Approach](https://ieeexplore.ieee.org/document/8731427), ICDE'19  
 - [Multi-Dimensional Mining of Unstructured Data with Limited Supervision](/publication), Ph.D. Thesis  
 - [Weakly-Supervised Neural Text Classification](/papers/cikm18a.pdf), CIKM'18  
 - [TaxoGen: Unsupervised Topic Taxonomy Construction by Adaptive Term Embedding and Clustering](/papers/kdd18a.pdf), KDD'18  
+- [State-Sharing Sparse Hidden Markov Models for Personalized Sequences](/publication), KDD'19  
+- [A Gradual, Semi-Discrete Approach to Generative Network Training via Explicit Wasserstein Minimization](http://proceedings.mlr.press/v97/chen19h.html), ICML'19  
+- [Computing Trajectory Similarity in Linear Time: A Generic Seed-Guided Neural Metric Learning Approach](https://ieeexplore.ieee.org/document/8731427), ICDE'19  
 - [TrioVecEvent: Embedding-Based Online Local Event Detection in Geo-Tagged Tweet Streams](/papers/kdd17.pdf), KDD'17
 - [Regions, Periods, Activities: Uncovering Urban Dynamics via Cross-Modal Representation Learning](/papers/www17.pdf), WWW'17   
 - [GMove: Group-Level Mobility Modeling Using Geo-Tagged Social Media](/papers/kdd16.pdf), KDD'16  
