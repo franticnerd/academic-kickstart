@@ -12,15 +12,15 @@ type = "widepage"
   *Chao Zhang*, Jiawei Han  
   Synthesis Lectures on Data Mining and Knowledge Discovery, Morgan & Claypool Publishers
 
-* [State-Sharing Sparse Hidden Markov Models for Personalized Sequences](/publication)  
+* [State-Sharing Sparse Hidden Markov Models for Personalized Sequences](/papers/kdd19.pdf)  
     Hongzhi Shi, *Chao Zhang*, Mingquan Yao, Yong Li, Funing Sun, Depeng Jin  
     ACM SIGKDD Conference on Knowledge Discovery and Pattern Mining (**KDD**), 2019  
 
-* [TopicMine: User-Guided Topic Mining by Category-Oriented Embedding](/publication)  
+* [TopicMine: User-Guided Topic Mining by Category-Oriented Embedding](/papers/kdd19demoa.pdf)  
     Yu Meng, Jiaxin Huang, Zihan Wang, Chenyu Fan, Guangyuan Wang, *Chao Zhang*, Jingbo Shang, Lance Kaplan, Jiawei Han.  
     ACM SIGKDD Conference on Knowledge Discovery and Pattern Mining (**KDD**), Demo Paper, 2019.
 
-* [CubeNet: Multi-Facet Hierarchical Heterogeneous Network Construction, Analysis, and Mining](/publication)  
+* [CubeNet: Multi-Facet Hierarchical Heterogeneous Network Construction, Analysis, and Mining](/papers/kdd19demob.pdf)  
     Carl Yang, Dai Teng, Siyang Liu, Sayantani Basu, Jieyu Zhang, Jiaming Shen, *Chao Zhang*, Jingbo Shang, Lance Kaplan, Timothy Harratty, and Jiawei Han.  
     ACM SIGKDD Conference on Knowledge Discovery and Pattern Mining (**KDD**), Demo Paper, 2019.
 
