@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2019-07-16 Tue 11:32 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>CSE 8803 DLT: Deep Learning for Text Data</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Chao" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="../worg.css" />
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2019 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">CSE 8803 DLT: Deep Learning for Text Data</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgbb90a0d">Logistics</a></li>
+<li><a href="#org157eadc">Overview</a></li>
+<li><a href="#org0cfd630">Content</a></li>
+<li><a href="#orgbc8e8f4">Schedule</a></li>
+<li><a href="#org72895c0">Grading</a></li>
+<li><a href="#org70b9a2f">Resources</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgbb90a0d" class="outline-2">
+<h2 id="orgbb90a0d">Logistics</h2>
+<div class="outline-text-2" id="text-orgbb90a0d">
+<ul class="org-ul">
+<li><b>Lecture time</b>: Monday &amp; Wednesday 3:00PM&#x2013;4:15PM</li>
+<li><b>Location</b>: CoC Room 52</li>
+<li><b>Instructor</b>: <a href="http://chaozhang.org/">Chao Zhang</a></li>
+<li><b>Teaching Assistant</b>: TBD</li>
+<li><b>Piazza</b>: TBD
+<ul class="org-ul">
+<li>Piazza will be the main place for course discussions and announcements. If you have questions, please <b>ask it on Piazza first</b> because 1) other students may have the same question; 2) you will get help faster compared to sending emails.</li>
+</ul></li>
+<li><b>Office Hours</b>:
+<ul class="org-ul">
+<li>Instructor Office Hour: TBD</li>
+<li>TA Office Hour: TBD</li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org157eadc" class="outline-2">
+<h2 id="org157eadc">Overview</h2>
+<div class="outline-text-2" id="text-org157eadc">
+<p>
+This course will introduce state-of-the-art machine learning techniques for
+mainstay problems in text data analysis, with particular emphasis on deep
+learning methods that have achieved enormous success recently. Students will
+learn about trending problems in this field, key methods for solving these
+problems, and their advantages and disadvantages. The course will provide
+useful techniques for students who want to solve practical problems involving
+text data, and better prepare those who want to do edge-cutting research in
+text mining, information retrieval, natural language processing, and text-rich
+interdisciplinary research. The learning objective is that by the end of this
+course, the students are able to formulate their text analysis problems at
+hand, choose appropriate statistical models for the problems, and even come up
+with innovative solutions for solving open research problems in this field.
+</p>
+
+<p>
+In the task space, we will cover a range of text data analysis tasks,
+including:
+</p>
+
+<ul class="org-ul">
+<li>Text classification (sentiment analysis, document classification)</li>
+<li>Sequence labeling (POS tagging, NER, event extraction)</li>
+<li>Knowledge graph construction and reasoning</li>
+<li>Text generation (text summarization, image captioning)</li>
+<li>A number of other trending topics in this area.</li>
+</ul>
+
+
+<p>
+In the methodology space, we will introduce state-of-the-art deep learning
+techniques for these problems, including:
+</p>
+
+<ul class="org-ul">
+<li>Deep representation learning (Word2Vec, Transformer, BERT)</li>
+<li>Sequence labeling models (CRF, LSTM-CRF)</li>
+<li>Deep transfer/multi-task learning</li>
+<li>Neural symbolic methods</li>
+<li>Deep generative models (GAN, VAE, and their variants)</li>
+</ul>
+
+
+<p>
+Prerequisites for this course: (1) the students should be have basic knowledge
+in machine learning and taken a relevant course before (e.g., CX4240, CSE6740,
+CS4641); (2) the students should have solid programming skills&#x2014;both the
+assignments and the course project can be programming demanding.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org0cfd630" class="outline-2">
+<h2 id="org0cfd630">Content</h2>
+<div class="outline-text-2" id="text-org0cfd630">
+<ul class="org-ul">
+<li>Background knowledge
+<ul class="org-ul">
+<li>Course overview and logistics</li>
+<li>Text data analysis: tasks and applications</li>
+<li>ML/DL review</li>
+</ul></li>
+<li>Text representation learning
+<ul class="org-ul">
+<li>Bag-of-words, n-gram, TF-IDF</li>
+<li>Dimension reduction, matrix factorization, topic models</li>
+<li>Word2vec, Glove</li>
+<li>Transformer and BERT</li>
+</ul></li>
+<li>Deep text classification
+<ul class="org-ul">
+<li>Traditional text classifiers: naive Bayes, logistic regression, SVM</li>
+<li>Deep classifiers: CNN, RNN and their variants</li>
+<li>Attention models</li>
+</ul></li>
+<li>Learning with less labeled data
+<ul class="org-ul">
+<li>Transfer learning and fine-tuning</li>
+<li>Multitask learning</li>
+<li>Semi-supervised learning</li>
+<li>Weakly supervised learning</li>
+</ul></li>
+<li>Sequence labeling and structured prediction
+<ul class="org-ul">
+<li>Motivating tasks: POS tagging, NER, event extraction</li>
+<li>Conditional random fields for sequence labeling</li>
+<li>Deep latent variable models for sequence labeling</li>
+</ul></li>
+<li>Text generation
+<ul class="org-ul">
+<li>Motivating tasks: summarization, image captioning, translation</li>
+<li>Deep language models</li>
+<li>VAE and GAN for text generation</li>
+</ul></li>
+<li>Knowledge representation and reasoning
+<ul class="org-ul">
+<li>Knowledge graph construction</li>
+<li>Knowledger graph reasoning</li>
+<li>Combining logic and neural models</li>
+</ul></li>
+<li>Other tending topics in text data analysis
+<ul class="org-ul">
+<li>Multimodal analytics of text and other data</li>
+<li>Adversarial learning and model robustness</li>
+<li>Question answering and dialogue systems</li>
+</ul></li>
+<li>Project presentations</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgbc8e8f4" class="outline-2">
+<h2 id="orgbc8e8f4">Schedule</h2>
+<div class="outline-text-2" id="text-orgbc8e8f4">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Date</th>
+<th scope="col" class="org-left">Topic</th>
+<th scope="col" class="org-left">Assignment</th>
+<th scope="col" class="org-left">Due</th>
+<th scope="col" class="org-left">Readings</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">8/19/19</td>
+<td class="org-left">Course Overview</td>
+<td class="org-left">Sign up for Piazza</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">8/21/19</td>
+<td class="org-left">Text Analysis Basics</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">8/26/19</td>
+<td class="org-left">Machine Learning Review</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">8/28/19</td>
+<td class="org-left">Bag-of-words, N-Grams, TF-IDF</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">9/2/19</td>
+<td class="org-left">No Class (Labor Day)</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">9/4/19</td>
+<td class="org-left">Dimension Reduction and Topic Models</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Proposal Due</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">9/9/19</td>
+<td class="org-left">Word Embedding, Word2Vec, Glove</td>
+<td class="org-left">HW1 Out</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">9/11/19</td>
+<td class="org-left">Transformer and BERT</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">9/16/19</td>
+<td class="org-left">Traditional Text Classifiers</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">9/18/19</td>
+<td class="org-left">Deep Text Classification</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">9/23/19</td>
+<td class="org-left">Attention Models</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">HW1 Due</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">9/25/19</td>
+<td class="org-left">Transfer Learning and Fine-Tuning</td>
+<td class="org-left">HW2 Out</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">9/30/19</td>
+<td class="org-left">Multitask Learning</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">10/2/19</td>
+<td class="org-left">Semi-Supervised Learning</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">10/7/19</td>
+<td class="org-left">Weakly Supervised Learning</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">10/9/19</td>
+<td class="org-left">Sequence Labeling Tasks</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">HW2 Due</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">10/14/19</td>
+<td class="org-left">No Class (Fall Recess)</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">10/16/19</td>
+<td class="org-left">Conditional Random Fields</td>
+<td class="org-left">HW3 Out</td>
+<td class="org-left">Mid Report Due</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">10/21/19</td>
+<td class="org-left">Deep Models for Sequence Labeling</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">10/23/19</td>
+<td class="org-left">Text Generation Tasks</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">10/28/19</td>
+<td class="org-left">Deep Language Models</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">10/30/19</td>
+<td class="org-left">GAN and VAE for Text Generation</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">HW3 Out</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">11/4/19</td>
+<td class="org-left">Knowledge Graph Construction</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">11/6/19</td>
+<td class="org-left">Knowledge Graph Reasoning</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">11/11/19</td>
+<td class="org-left">Neural Symbolic Methods</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">11/13/19</td>
+<td class="org-left">Other Trending Topics</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">HW3 Due</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">11/18/19</td>
+<td class="org-left">Project Presentations</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">11/20/19</td>
+<td class="org-left">Project Presentations</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">11/25/19</td>
+<td class="org-left">Project Presentations</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">11/27/19</td>
+<td class="org-left">No Class</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">12/2/19</td>
+<td class="org-left">No Class</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Final Report Due</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">12/4/19</td>
+<td class="org-left">Reading Day</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+
+
+
+<div id="outline-container-org72895c0" class="outline-2">
+<h2 id="org72895c0">Grading</h2>
+<div class="outline-text-2" id="text-org72895c0">
+<ul class="org-ul">
+<li>Homeworks (45%)
+<ul class="org-ul">
+<li>There will be three assignments. Each one is designed for testing your understanding of the taught algorithms. It could be either programming or written analysis.</li>
+<li>All assignments follow the "no-late" policy. Assignments received after the due time will receive zero credit.</li>
+<li>All students are expected to follow the <a href="http://policylibrary.gatech.edu/student-affairs/academic-honor-code">Georgia Tech Academic Honor Code</a>.</li>
+</ul></li>
+<li>Project (50%)
+<ul class="org-ul">
+<li>You are expected to complete a project on machine learning for text data. Your project needs to be clear about 1) the problem you are attempting to solve; 2) a survey of existing literature for the problem and the technical method you propose to solve the problem; 3) the results and conclusion you attain.</li>
+<li>Each project needs to be completed in a team of 2-3 people. Team members need to clearly claim their contributions in the project report.</li>
+<li>You will need to submit the following: 
+<ul class="org-ul">
+<li>Project proposal (10%): formulation of the problem and expected outcome</li>
+<li>Mid-term report (10%): literature survey and technical roadmap</li>
+<li>Presentation (15%): group-wise in-class project presentation</li>
+<li>Final report (15%): a complete and final project report</li>
+</ul></li>
+</ul></li>
+<li>Class participation (5%)
+<ul class="org-ul">
+<li>Your class participation score will be graded based on attendance and in-class quizzes.</li>
+<li>Participation in class discussions (including asking relevant questions in class, volunteering to answer questions on Piazza) will be considered when determining your final grade. It will be especially useful when you are right on the edge of two letter grades.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org70b9a2f" class="outline-2">
+<h2 id="org70b9a2f">Resources</h2>
+<div class="outline-text-2" id="text-org70b9a2f">
+<ul class="org-ul">
+<li><a href="https://web.stanford.edu/~jurafsky/slp3/">Speech and Language Processing</a>, by Dan Jurafsky and James H. Martin</li>
+<li><a href="http://web.stanford.edu/class/cs224n/">Deep Learning for NLP</a></li>
+<li><a href="http://www.deeplearningbook.org/">Deep Learning</a>, by Ian Goodfellow, Yoshua Bengio, and Aaron Courville</li>
+<li><a href="https://d2l.ai/">Dive into Deep Learning</a>, by Aston Zhang, Zack C. Lipton, Mu Li, and Alex Smola</li>
+</ul>
+
+<p>
+Other resources, such as deep learning toolboxes and datasets, will be provided throughout the course.
+</p>
+</div>
+</div>
+</div>
+</body>
+</html>
